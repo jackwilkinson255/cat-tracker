@@ -1,7 +1,7 @@
 # Cat Tracker Data Engineering Project
 
 <p align="center">
-  <img src="cat.gif" alt="animated" width="200"/>
+  <img src="cat.gif" alt="animated" width="400"/>
 </p>
 
 In this data engineering project we collect data from motion sensors to detect whether a cat is inside or
