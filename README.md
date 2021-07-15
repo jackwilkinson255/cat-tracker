@@ -1,6 +1,8 @@
 # Cat Tracker Data Engineering Project
 
-
+<p align="center">
+  <img src="cat.gif" alt="animated" />
+</p>
 
 In this data engineering project we collect data from motion sensors to detect whether a cat is inside or
 outside. Using AWS IoT we publish this data to a topic which is acted on by a rule which stores the message
