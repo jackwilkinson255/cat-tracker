@@ -12,12 +12,12 @@ data into a DynamoDB NoSQL table.
 ## ETL Pipeline
 
 ### Extraction:
-Data is extracted from an Arduino microcontroller conncted to two passive infrared (PIR) sensors which detect motion. 
+Data is extracted from an Arduino microcontroller connected to two passive infrared (PIR) sensors which detect motion. 
 These are placed on either side of the cat flap we can then tell whether the cat is coming in or going out.
 This data is sent from the Arduino to a Raspberry Pi via serial connection. 
 
 ### Transform:
-The Raspberry Pi (running main.py) [a relative link](main.py) receives the status of the motion sensors. Knowing the order in which 
+The Raspberry Pi (running [main.py](main.py)) receives the status of the motion sensors. Knowing the order in which 
 these motion sensors were triggered, we can detect if the is "inside" or "outside". We add a small delay to 
 allow the cat to get through its flap before detecting a false reading. 
 
